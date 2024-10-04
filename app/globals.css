@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151515;
+
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+.navbarLeft {
+
+color: white;
+
+  P{
+    padding: 15px;
+    font-size: 32px;
+  }
+}
+
+.navbarRight {
+  
+
+
+  img{
+    float: right;
+    width: 300px;
+    padding-right: 30px;
+    border-radius: 30px   ;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 198px;
+  padding-left: 50px;
+  gap: 30px;
+}
+
+.headerUp {
+  color: white;
+  font-size: 80px;
+}
+
+.headerDown {
+  font-size: 18px;
+  color: #D9D9D9;
+}
+
+.skills {
+  padding-top: 100px;
+  display: grid;
+  padding-left: 165px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.skill {
+
+h3{
+  color: white;
+  font-size: 48px;
+}
+
+p{
+  color: #D9D9D9;
+  font-size: 18px
+}
+
+}
+
+.skill, h3:hover{
+  cursor: pointer;
+  color: green;
+  font-size: 50px;
+}
+
+
+.projects {
+  padding-left: 165px;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.projectText {
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+  span{
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+
+  p{
+    font-size: 18px;
+    color: #D9D9D9;
+  }
+}
+
+.iletisim {
+max-width: 1440px;
+background-color: #242424;
+
+
+
+  h1{
+    padding: 30px;
+    color: white;
+    font-size: 70px;
+  }
+
+  span{
+    color: blue;
+  }
+
+  p{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+  }
+}
